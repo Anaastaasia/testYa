@@ -127,7 +127,13 @@ h1 {
     border: none;
 }
 
-.button__black:focus {
+.button__black:hover {
+    background: #FBCE51;
+    border: none;
+    color:#1F1F1F;
+}
+
+.button__black.hover {
     background: #FBCE51;
     border: none;
     color:#1F1F1F;
@@ -140,6 +146,11 @@ h1 {
 }
 
 .button__transparent:hover {
+    background: #1F1F1F;
+    color: #FFFFFF;
+}
+
+.button__transparent.hover {
     background: #1F1F1F;
     color: #FFFFFF;
 }
@@ -563,7 +574,12 @@ color: #3057A2;
     align-items: center;
 }
 
-.slide_btn:focus {
+.slide_btn:hover {
+    background: #FBCE51;
+    border: none;
+}
+
+.slide_btn.hover {
     background: #FBCE51;
     border: none;
 }

@@ -118,3 +118,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     observer.observe(document.querySelector('.card2'));
 });
+
+document.querySelectorAll('.button__black, .button__transparent, .slide_btn').forEach(button => {
+    button.addEventListener('touchstart', function() {
+        this.classList.add('hover');
+    });
+    button.addEventListener('touchend', function() {
+        this.classList.remove('hover');
+    });
+});
