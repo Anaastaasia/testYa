@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
             currentIndex2 = (currentIndex2 - 1 + totalSets) % totalSets;
         }
         updateCards2();
-        resetAndStartInterval2();
+        
     }
     
     function resetAndStartInterval2() {
@@ -96,10 +96,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 4000);
     }
     
-    leftBtn2.addEventListener('click', () => shiftCards2('left'));
-    rightBtn2.addEventListener('click', () => {
-        shiftCards2('right')
+    leftBtn2.addEventListener('click', () => {
+        shiftCards2('left');
+        resetAndStartInterval2();
     });
+    rightBtn2.addEventListener('click', () => {
+        shiftCards2('right');
+        resetAndStartInterval2();
+    });
+
+    resetAndStartInterval2();
+    updateCards2(); 
 
     let options = {
         root: null,
@@ -119,11 +126,3 @@ document.addEventListener("DOMContentLoaded", function() {
     observer.observe(document.querySelector('.card2'));
 });
 
-document.querySelectorAll('.button__black, .button__transparent, .slide_btn').forEach(button => {
-    button.addEventListener('touchstart', function() {
-        this.classList.add('hover');
-    });
-    button.addEventListener('touchend', function() {
-        this.classList.remove('hover');
-    });
-});
