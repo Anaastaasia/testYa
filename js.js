@@ -126,3 +126,12 @@ document.addEventListener("DOMContentLoaded", function() {
     observer.observe(document.querySelector('.card2'));
 });
 
+document.querySelectorAll('.button__black, .button__transparent, .slide_btn').forEach(element => {
+    element.addEventListener('touchstart', function() {
+        this.classList.add('hover-effect'); 
+    });
+
+    element.addEventListener('touchend', function() {
+        this.classList.remove('hover-effect');
+    });
+});

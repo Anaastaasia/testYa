@@ -809,25 +809,6 @@ footer {
     .header2 {
         order: 1; 
     }
-    .button__black:active {
-        background: #FBCE51;
-        border: none;
-        color:#1F1F1F;
-    }
-    .button__transparent:active {
-        background: #1F1F1F;
-        color: #FFFFFF;
-    }
-    .slide_btn:active {
-        background: #FBCE51;
-        border: none;
-    }
-    a:active {
-        cursor: pointer;
-    }
-    button:active {
-        cursor: pointer;
-    }
 }
 
 @media (max-width: 600px) {
@@ -936,5 +917,19 @@ footer {
     button:hover {
         cursor: pointer;
     }
+}
+
+.button__black.hover-effect {
+    background: #FBCE51;
+    border: none;
+    color:#1F1F1F;
+}
+.button__transparent.hover-effect {
+    background: #1F1F1F;
+    color: #FFFFFF;
+}
+.slide_btn.hover-effect {
+    background: #FBCE51;
+    border: none;
 }
 
