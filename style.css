@@ -162,6 +162,7 @@ color: #313131;
 }
 
 .button {
+    border: none;
     display: flex;
 flex-direction: column;
 justify-content: center;
@@ -442,6 +443,7 @@ line-height: 120%;
 /*Блок четыре*/
 
 .container_four {
+    scroll-behavior: smooth;
     padding: 0px clamp(1.25rem, -1.851rem + 13.23vw, 4.5rem) 200px clamp(1.25rem, -1.851rem + 13.23vw, 4.5rem); /*20-72 для 375-768*/
 }
 
@@ -829,10 +831,9 @@ footer {
         flex-direction: column; 
 
     }
-    .container_three_header {
-
+    .text__center {
+        text-align: center;
     }
-
     .container_three_header_img {
         width: 80%;
     }
@@ -942,6 +943,7 @@ footer {
         }
 
         .text__blue.inline {
+            order: 2;
             position: relative;
             top: 0;
             left: 0;
