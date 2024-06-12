@@ -931,5 +931,6 @@ footer {
 .slide_btn:disabled {
     background: #313131;
     opacity: 0.2;
+    cursor: default;
 }
 
