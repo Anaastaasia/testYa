@@ -94,6 +94,7 @@ svg * {
 h1 {
     font-family: 'Merriweather';
     font-size: 60px;
+    font-weight: 400;
     line-height: 110%;
     margin: 62px 0px 24px 0px;
     text-transform: uppercase;
@@ -550,12 +551,6 @@ color: #3057A2;
 }
 
 
-
-.slide_btn:disabled {
-    background: #313131;
-    opacity: 0.2;
-}
-
 #left-btn2, #right-btn2 {
     width: 44px;
     height: 44px;
@@ -931,5 +926,10 @@ footer {
 .slide_btn.hover-effect {
     background: #FBCE51;
     border: none;
+}
+
+.slide_btn:disabled {
+    background: #313131;
+    opacity: 0.2;
 }
 
