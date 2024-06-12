@@ -127,7 +127,7 @@ h1 {
     border: none;
 }
 
-.button__black:hover {
+.button__black:focus {
     background: #FBCE51;
     border: none;
     color:#1F1F1F;
@@ -563,7 +563,7 @@ color: #3057A2;
     align-items: center;
 }
 
-.slide_btn:hover {
+.slide_btn:focus {
     background: #FBCE51;
     border: none;
 }
