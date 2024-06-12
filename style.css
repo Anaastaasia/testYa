@@ -123,57 +123,12 @@ h1 {
     border: none;
 }
 
-@media (hover: hover) {
-    .button__black:hover {
-        background: #FBCE51;
-        border: none;
-        color:#1F1F1F;
-    }
-    .button__transparent:hover {
-        background: #1F1F1F;
-        color: #FFFFFF;
-    }
-    .slide_btn:hover {
-        background: #FBCE51;
-        border: none;
-    }
-    a:hover {
-        cursor: pointer;
-    }
-    button:hover {
-        cursor: pointer;
-    }
-}
-
-@media (hover: none) {
-    .button__black:active {
-        background: #FBCE51;
-        border: none;
-        color:#1F1F1F;
-    }
-    .button__transparent:active {
-        background: #1F1F1F;
-        color: #FFFFFF;
-    }
-    .slide_btn:active {
-        background: #FBCE51;
-        border: none;
-    }
-    a:active {
-        cursor: pointer;
-    }
-    button:active {
-        cursor: pointer;
-    }
-}
-
 .button__transparent {
+    color: #1F1F1F;
     background-color: transparent;
     border: 2px solid #1F1F1F;
     padding: 20px 50px;
 }
-
-
 
 .button {
 display: flex;
@@ -854,6 +809,25 @@ footer {
     .header2 {
         order: 1; 
     }
+    .button__black:active {
+        background: #FBCE51;
+        border: none;
+        color:#1F1F1F;
+    }
+    .button__transparent:active {
+        background: #1F1F1F;
+        color: #FFFFFF;
+    }
+    .slide_btn:active {
+        background: #FBCE51;
+        border: none;
+    }
+    a:active {
+        cursor: pointer;
+    }
+    button:active {
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 600px) {
@@ -941,3 +915,26 @@ footer {
         padding: 18px;
     }
 }
+
+@media (hover: hover) {
+    .button__black:hover {
+        background: #FBCE51;
+        border: none;
+        color:#1F1F1F;
+    }
+    .button__transparent:hover {
+        background: #1F1F1F;
+        color: #FFFFFF;
+    }
+    .slide_btn:hover {
+        background: #FBCE51;
+        border: none;
+    }
+    a:hover {
+        cursor: pointer;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+}
+
