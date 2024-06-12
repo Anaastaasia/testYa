@@ -444,7 +444,7 @@ line-height: 120%;
 
 .container_four {
     scroll-behavior: smooth;
-    padding: 0px clamp(1.25rem, -1.851rem + 13.23vw, 4.5rem) 200px clamp(1.25rem, -1.851rem + 13.23vw, 4.5rem); /*20-72 для 375-768*/
+    padding: 0px clamp(1.25rem, -1.851rem + 13.23vw, 4.5rem) clamp(7.5rem, 2.729rem + 20.36vw, 12.5rem) clamp(1.25rem, -1.851rem + 13.23vw, 4.5rem); /*20-72 для 375-768*/
 }
 
 .four_header {  
